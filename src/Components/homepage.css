@@ -1,0 +1,145 @@
+.header{
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+}
+.user{
+    position: absolute;
+        top: 3vh;
+        left: 0vw;
+        border: 1px solid black;
+        width: 10vw;
+        height: 6vh;
+        padding: 8px;
+        border-radius: 10px;
+        font-weight: 1rem;
+ 
+        box-sizing: border-box;
+   
+}
+.search{
+    position: absolute;
+    top: 3vh;
+    left: 32vw;
+    width: 36vw;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.add{
+    
+        position: absolute;
+        top: 3vh;
+        left: 80vw;
+        border: 1px solid black;
+        width: 10vw;
+        height: 6vh;
+        padding: 8px;
+        border-radius: 10px;
+        font-weight: 1rem;
+        background-color: rgb(53, 236, 53);
+        color: white;
+        box-sizing: border-box;
+    
+    
+}
+.back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+    background-color:transparent;
+    z-index: 5;
+}
+.pop {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:  9px 10px 7px;
+    background-color: aquamarine;
+   
+    top: 34vh;
+    left: 29vw;
+    width: 41vw;
+    height: 35vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.log{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius:3px ;
+    margin-left: 5px;
+    background-color: aqua;
+}
+.in{
+    width: 338px;
+    height: 28px;
+    border-radius: 4px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.fl{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    box-shadow: 11px 12px 9px 1px;
+    margin: 25px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.onhover{
+
+position: relative;
+width: 100%;
+height: 50px;
+background-color: antiquewhite;
+top: -80px;
+left: 0px;
+z-index: 5;
+display: flex;
+justify-content: space-between;
+visibility: hidden;
+}
+.image{
+    width:100%;
+    height:100%
+}
+.image:hover + .onhover{
+    visibility: visible;
+
+ 
+}
+.onhover:hover{
+    visibility: visible;
+
+ 
+}
+.del{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 150px;
+    top: 20vh;
+    left: 42vw;
+    z-index: 15;
+}
